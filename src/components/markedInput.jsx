@@ -4,7 +4,7 @@ import editorContext from "../editorContext";
 
 const Container = styled.div`
     width: 50%;
-    height: 100%;
+    height: 95%;
     padding: 14px;
     border-right: 1.5px solid rgba(15, 15, 15, 0.4);
     font-family: 'Lato' , sans-serif;

@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { MarkedInput } from "./components/markedInput";
 import { Result } from "./components/result";
 import EditorContext from "./editorContext";
+import { Footer } from "./components/footbar";
 
 const AppContainer = styled.div`
   width: 100%;
@@ -43,6 +44,7 @@ export default function App() {
           <MarkedInput />
           <Result />
         </EditorContainer>
+        <Footer />
       </AppContainer>
    </EditorContext.Provider> 
   )
